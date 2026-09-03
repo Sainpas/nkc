@@ -1,0 +1,11 @@
+This repository intentionally does not include a binary Gradle wrapper JAR.
+
+To use ./gradlew, place the standard Gradle wrapper binary for Gradle 8.14.4 at:
+
+  gradle/wrapper/gradle-wrapper.jar
+
+The included gradlew launcher already references that location.
+
+Alternatively, run a locally installed Gradle 8.14.4 directly:
+
+  gradle assembleDebug
